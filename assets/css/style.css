@@ -1,0 +1,102 @@
+@import url("./root.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* section-1 */
+.lh-72px {
+    line-height: 72px !important;
+}
+
+.max-w-992 {
+    max-width: 922px !important;
+}
+
+.accordion-1 {
+    border: none !important;
+}
+
+.accordion {
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-color: none !important;
+    --bs-accordion-active-color: none !important;
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-bg: none !important;
+    --bs-accordion-btn-bg: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.lh-32 {
+    line-height: 32.4px !important;
+}
+
+.max-w-908 {
+    max-width: 908px !important;
+}
+
+.accordion-button-1 {
+    color: black !important;
+    margin-top: 8px !important;
+}
+
+/* section-2 */
+.text-gradient {
+    background-image: linear-gradient(180deg, #815CC8 0%, #1BABFE 100%) !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
+
+.blur {
+    backdrop-filter: blur(40px) !important;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.03) 100%);
+}
+
+.lh-27 {
+    line-height: 27px !important;
+}
+
+.accordion-item-2 {
+    border: 3px solid #252524 !important;
+    border-radius: 6px !important;
+    border-image-source: linear-gradient(90.28deg, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0.03) 99.96%);
+    margin-top: 24px !important;
+}
+
+/* section-3 */
+.accordion-item-3 {
+    margin-top: 33px !important;
+    border: 1px solid #1EADB6 !important;
+    box-shadow: #1EADB6 !important;
+    border-top-left-radius: 40px !important;
+    border-bottom-right-radius: 26px !important;
+}
+
+.max-w-899 {
+    max-width: 899px !important;
+}
+
+.rb-svg {
+    bottom: -3.9%;
+    right: -0.1%;
+}
+
+.accordion-button-3 {
+    background-color: none !important;
+}
+
+.lh-24 {
+    line-height: 24px !important;
+}
+
+.lh-29 {
+    line-height: 29.26px;
+}

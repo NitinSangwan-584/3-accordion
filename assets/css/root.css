@@ -1,0 +1,52 @@
+:root {
+    /* section-1 */
+    --poppins: "Poppins", sans-serif;
+    --fs-18px: 18px;
+    --fs-48px: 48px;
+    --text-opacity: 70%;
+    --bg-yellow: #FFF03F;
+    --bg-dark-yellow: #F6E300;
+    /* section-2 */
+    --fw-500: 500;
+    /* section-3 */
+    --audiowide: "Audiowide", sans-serif;
+    --montserrat: "Montserrat", sans-serif;
+}
+
+/* section-1 */
+.bg-yellow {
+    background-color: var(--bg-yellow) !important;
+}
+
+.poppins {
+    font-family: var(--poppins);
+}
+
+.bg-dark-yellow {
+    background-color: var(--bg-dark-yellow);
+}
+
+.fs-18px {
+    font-size: var(--fs-18px) !important;
+}
+
+.text-opacity {
+    opacity: var(--text-opacity) !important;
+}
+
+/* section-2 */
+.fw-500 {
+    font-weight: var(--fw-500) !important;
+}
+
+.fs-48px {
+    font-size: var(--fs-48px);
+}
+/* section-3 */
+.audiowide {
+    font-family: var(--audiowide);
+}
+
+.montserrat {
+    font-family: var(--montserrat);
+}
