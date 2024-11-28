@@ -15,7 +15,6 @@
 .accordion-1 {
     border: none !important;
 }
-
 .accordion {
     --bs-accordion-border-color: none !important;
     --bs-accordion-color: none !important;
@@ -74,10 +73,19 @@
 /* section-3 */
 .accordion-item-3 {
     margin-top: 33px !important;
-    border: 1px solid #1EADB6 !important;
-    box-shadow: #1EADB6 !important;
+    border: 1px solid var(--color-sky) !important;
+    box-shadow: var(--color-sky) !important;
     border-top-left-radius: 40px !important;
     border-bottom-right-radius: 26px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+
+}
+
+.border-shadow {
+    -webkit-box-shadow: 3px -3px 15px -2px rgba(30, 173, 182, 1) !important;
+    -moz-box-shadow: 3px -3px 15px -2px rgba(30, 173, 182, 1) !important;
+    box-shadow: 3px -3px 15px -2px rgba(30, 173, 182, 1) !important;
 }
 
 .max-w-899 {
